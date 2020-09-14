@@ -1,0 +1,40 @@
+1 Overview of make
+The make utility automatically determines which pieces of a large program need to be
+recompiled, and issues commands to recompile them. This manual describes GNU make,
+which was implemented by Richard Stallman and Roland McGrath. Development since
+Version 3.76 has been handled by Paul D. Smith.
+GNU make conforms to section 6.2 of IEEE Standard 1003.2-1992 (POSIX.2).
+Our examples show C programs, since they are most common, but you can use make
+with any programming language whose compiler can be run with a shell command. Indeed,
+make is not limited to programs. You can use it to describe any task where some files must
+be updated automatically from others whenever the others change.
+To prepare to use make, you must write a file called the makefile that describes the
+relationships among files in your program and provides commands for updating each file.
+In a program, typically, the executable file is updated from object files, which are in turn
+made by compiling source files.
+Once a suitable makefile exists, each time you change some source files, this simple shell
+command:
+make
+suffices to perform all necessary recompilations. The make program uses the makefile data
+base and the last-modification times of the files to decide which of the files need to be
+updated. For each of those files, it issues the recipes recorded in the data base.
+You can provide command line arguments to make to control which files should be
+recompiled, or how. See Chapter 9 [How to Run make], page 99.
+1.1 How to Read This Manual
+If you are new to make, or are looking for a general introduction, read the first few sections
+of each chapter, skipping the later sections. In each chapter, the first few sections contain
+introductory or general information and the later sections contain specialized or technical
+information. The exception is Chapter 2 [An Introduction to Makefiles], page 3, all of which
+is introductory.
+If you are familiar with other make programs, see Chapter 14 [Features of GNU make],
+page 147, which lists the enhancements GNU make has, and Chapter 15 [Incompatibilities
+and Missing Features], page 151, which explains the few things GNU make lacks that others
+have.
+For a quick summary, see Section 9.7 [Options Summary], page 104, Appendix A [Quick
+Reference], page 169, and Section 4.8 [Special Targets], page 32.
+1.2 Problems and Bugs
+If you have problems with GNU make or think you’ve found a bug, please report it to the
+developers; we cannot promise to do anything but we might well want to fix it.
+Before reporting a bug, make sure you’ve actually found a real bug. Carefully reread
+the documentation and see if it really says you can do what you’re trying to do. If it’s not
+clear whether you should be able to do something or not, report that too; it’s a bug in the documentation!

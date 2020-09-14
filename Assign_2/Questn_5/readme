@@ -1,0 +1,4 @@
+C program to:
+-Accept filename through command line argument
+-Accept number of bytes
+-Read that number of bytes from the file

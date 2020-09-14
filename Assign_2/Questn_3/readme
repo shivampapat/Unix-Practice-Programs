@@ -1,0 +1,3 @@
+C program to:
+-Accept filename and a mode through command line argument
+-Check whether our process can access the file in the accepted mode or not

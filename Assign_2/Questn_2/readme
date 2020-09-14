@@ -1,0 +1,4 @@
+C program to:
+-Accept filename and mode in which the file to be opened 
+-Accept input through command line arguments
+-Display the mode in which file is opened

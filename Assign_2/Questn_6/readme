@@ -1,0 +1,7 @@
+C Program to 
+-Accept file name from user through command line argument
+-Open the specified file
+-Error if file cannot be opened / missing.
+-Read whole file and display on screen
+-Close the file
+

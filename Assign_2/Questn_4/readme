@@ -1,0 +1,3 @@
+C program to:
+-Accept filename through command line argument
+-Display the information about the specified file.
