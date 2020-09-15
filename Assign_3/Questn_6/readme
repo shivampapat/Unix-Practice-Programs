@@ -1,0 +1,7 @@
+C program to:
+-Accept 2 directory names/path through command line arguments
+-Move files from 1 directory to other
+
+Run in terminal as:
+make build
+make ARGS="directoryname1 directoryname2" run

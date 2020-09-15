@@ -1,0 +1,7 @@
+C program
+-Accept directory name through command line argument
+-Display all files under that directory
+
+Run in terminal as:
+make build
+make ARGS="directory name" run

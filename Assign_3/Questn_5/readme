@@ -1,0 +1,7 @@
+C program
+-Accept directory name and file name through command line argument
+-Check whether the file is present in the specified directory
+
+Run in terminal as:
+make build
+make ARGS="directory_name file_name" run

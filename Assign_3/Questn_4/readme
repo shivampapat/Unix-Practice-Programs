@@ -1,0 +1,9 @@
+C program to:
+-Accpet 2 filenames
+- Create a new file 
+-Copy content from one file to newly created file
+
+
+Run program as:
+make build
+make ARGS="filename1 filename2" run

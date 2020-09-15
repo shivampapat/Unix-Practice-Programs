@@ -1,0 +1,9 @@
+C program to:
+-Accept directory name/path through command line arguments
+-Delete all empty files from that directory
+
+
+Run program as:
+
+make build
+make ARGS="Directory name" run

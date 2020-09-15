@@ -1,0 +1,8 @@
+C program to:
+-Accept Directory path/name through command prompt argument
+-Display file with largest size
+
+Run as
+
+make build
+make ARGS="Directory name" run
