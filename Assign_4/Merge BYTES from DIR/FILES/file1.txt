@@ -1,0 +1,1 @@
+ten from first bytes are copied only from these file
