@@ -1,0 +1,4 @@
+C program to 
+- Accept a file name which has contents of many files
+- Unpack all the files mentioned in the specified file
+- Unpack data of those files into respective file

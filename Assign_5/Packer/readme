@@ -1,0 +1,16 @@
+C program to
+- Accept a directory
+- Merge data of all the regular files from that directory into a single file
+
+filename_filesize_filedata
+
+(Can also be done as)
+Create a structure as
+struct file{
+	char filename[512];
+	int filesize;
+	char* fieldata;
+}
+
+And then write structure object into the file.
+
