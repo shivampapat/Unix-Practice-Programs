@@ -1,0 +1,4 @@
+C program to
+- Accept a file name from user
+- Accept offset from user
+- Delete data from given offset to end.

@@ -1,0 +1,7 @@
+C program to
+-Aceept directory name
+- If file in directory has sie <1kb   
+		then create hole to make it 1kb
+- If file size > 1kb
+         truncate to 1kb
+         
